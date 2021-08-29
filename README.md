@@ -1,6 +1,6 @@
-#This just a simple notepad to store the notes (Strings) that you need
+# This just a simple notepad to store the notes (Strings) that you need
 
-##screenshot captures:
+## screenshot captures:
 
 ![Screenshot1](screenshots/img1.png)
 
