@@ -2,8 +2,8 @@
 
 ## screenshot captures:
 
-![Screenshot1](screenshots/img1.png)
+![Screenshot1](screenshots/img11.jpg)
 
-![Screenshot1](screenshots/img2.png)
+![Screenshot1](screenshots/img12.jpg)
 
-![Screenshot1](screenshots/img3.png)
+![Screenshot1](screenshots/img13.jpg)
