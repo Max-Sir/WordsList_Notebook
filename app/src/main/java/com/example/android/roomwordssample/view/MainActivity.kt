@@ -42,9 +42,7 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.fabClear.setOnClickListener{
-            wordViewModel.onClearEventStarted()
             wordViewModel.clear()
-            binding.fabClear.isEnabled=false
         }
         // Add an observer on the LiveData returned by getAlphabetizedWords.
         // The onChanged() method fires when the observed data changes and the activity is
@@ -64,7 +62,6 @@ class MainActivity : AppCompatActivity() {
             intentData?.getStringExtra(NewWordActivity.EXTRA_REPLY)?.let { reply ->
                 val word = Word(reply)
                 wordViewModel.insert(word)
-                wordViewModel.onClearEventStarted()
             }
         } else {
             Toast.makeText(

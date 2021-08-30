@@ -35,11 +35,6 @@ class WordViewModel(private val repository: WordRepository) : ViewModel() {
         repository.clear()
     }
 
-    fun onClearEventStarted(){
-    }
-
-    fun onCleareEventCompleted() {
-    }
 
     override fun onCleared() {
         super.onCleared()
